@@ -11,6 +11,8 @@ public class Main {
         System.out.print("E qual o seu sobrenome: ");
         String sobrenome = scanner.nextLine();
 
-        System.out.println("Olá, " + nome + " " + sobrenome);
+        String nomeCompleto = nome + " " + sobrenome;
+
+        System.out.println("Olá, " + nomeCompleto);
     }
 }
